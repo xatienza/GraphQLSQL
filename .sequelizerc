@@ -1,0 +1,8 @@
+var path = require('path');
+
+module.exports = {
+  'config': path.resolve('./', 'src/imports/server/database.js'),
+  'migrations-path': path.resolve('./', 'src/imports/server/migrations'),
+  'seeders-path': path.resolve('./', 'src/imports/server/seeders'),
+  'models-path': path.resolve('./', 'src/imports/server/models')
+};
